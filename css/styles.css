@@ -6,10 +6,37 @@
         font-family: 'Montserrat', sans-serif;
     }
     /*---------------------navbar section1--------------------------*/
+    
+    .items:hover {
+        background-color: #fd954e;
+        color: white;
+    }
+    
+    .nav-link {
+        font-weight: 900x !important;
+    }
     /*---------------------home section2---------------------------*/
     
     .d-block {
         height: 60vh;
+    }
+    
+    .item1-btn {
+        background-color: #fd954e;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        width: 30%;
+        height: 100%;
+    }
+    
+    .item1-btn:hover {
+        background-color: #750903;
+        color: #fd954e;
+        font-size: 20px;
+        border-radius: 15px;
     }
     /*---------------------download section---------------------------*/
     
@@ -47,9 +74,17 @@
         flex-grow: 2;
     }
     
+    .item-btn:hover {
+        background-color: #750903;
+        color: white;
+        border: none;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
     h3 {
-        color: yellow;
-        font-size: 25px;
+        color: #fd954e;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -62,6 +97,18 @@
     .card {
         border: none;
         margin-bottom: 1rem;
+    }
+    
+    .py-3 {
+        font-weight: 900 !important;
+        font-family: 'Montserrat', sans-serif !important;
+        font-size-adjust: 60px;
+    }
+    
+    .heading-line {
+        height: 3px;
+        width: 15%;
+        background: #fd954e;
     }
     /*---------------------testimony section---------------------------*/
     /*---------------------footer section---------------------------*/
